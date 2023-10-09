@@ -10,7 +10,9 @@ namespace Assignment_Unit_Testing
     {
         internal double _balance;
 
-        internal Account(double balance)
+        public double Balance { get { return _balance; } } 
+
+        public Account(double balance)
         {
             _balance = balance;
         }

@@ -13,7 +13,7 @@ namespace Assignment_Unit_Testing
         public Savings(double balance) : base(balance)
         {
             _interest = 5.00;
-        }
+        }       
 
         public override void Deposit(double amount)
         {
